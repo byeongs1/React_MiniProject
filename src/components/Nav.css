@@ -1,0 +1,24 @@
+/* @font-face {
+    font-family: 'Nanum Gothic', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Kanit&family=Nanum+Gothic&display=swap');
+}
+
+@font-face {
+    font-family: 'Kanit', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Kanit&family=Nanum+Gothic&display=swap');
+} */
+
+.nav__model {
+    /* font-family: 'Kanit'; */
+    /* font-size: 8px; */
+}
+
+.nav__menu {
+    font-family: 'Nanum Gothic';
+    /* font-size: x-small; */
+}
+
+.nav__menu_kor {
+    font-family: 'Nanum Gothic';
+    /* font-size: x-small; */
+}
