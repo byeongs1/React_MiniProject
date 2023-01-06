@@ -1,12 +1,21 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Nav.css'
 
 const Nav = props => {
+    const navigate = useNavigate();
+    const navigateToEunhye = props => {
+        navigate("/eunhye");
+    }
+
     return (
+
         <div className='nav flex fixed w-full p-5 h-30px justify-between '>
             <img className='nav__logo pl-2 w-[140px] max-h-[16px] ml-4' src="/images/tesla_logo.png" alt="" />
             <div className="nav__models flex" >
-                <button className="nav__model hidden text-sm font-semibold sm:hidden md:mr-2 md:inline lg:mr-6  pl-2 pr-2 hover:bg-slate-200 rounded-sm ">Model S</button>
+
+                <button className="nav__model hidden text-sm font-semibold sm:hidden md:mr-2 md:inline lg:mr-6  pl-2 pr-2 hover:bg-slate-200 rounded-sm "
+                    onClick={navigateToEunhye}>Model S</button>
                 <button className="nav__model hidden text-sm font-semibold sm:hidden md:mr-2 md:inline lg:mr-6 pl-2 pr-2 hover:bg-slate-200 rounded-sm">Model 3</button>
                 <button className="nav__model hidden text-sm font-semibold sm:hidden md:mr-2 md:inline lg:mr-6 pl-2 pr-2 hover:bg-slate-200 rounded-sm">Model X</button>
                 <button className="nav__model hidden text-sm font-semibold sm:hidden md:mr-2 md:inline lg:mr-6 pl-2 pr-2 hover:bg-slate-200 rounded-sm">Model Y</button>
