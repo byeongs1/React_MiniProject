@@ -2,14 +2,14 @@ import React from 'react'
 import Nav from './Nav'
 import Footer from './Footer'
 
-const Eunhye = props => {
+const Gilhwan = props => {
     return (
         <div>
             <Nav />
-            <img className='w-full' src="/images/KakaoTalk_20230106_171437308.jpg" alt="" />
+            <img className='w-full giilhwan' src='/images/1672992196051.jpg' />
             <Footer />
         </div>
     )
 }
 
-export default Eunhye
+export default Gilhwan

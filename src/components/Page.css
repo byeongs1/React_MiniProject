@@ -1,0 +1,10 @@
+.banner {
+    color: black;
+    object-fit: contain;
+    height: 100vh;
+}
+
+.itemText {
+    padding-top: 15vh;
+    text-align: center;
+}

@@ -1,41 +1,27 @@
 import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom';
 import './App.css';
-<<<<<<< HEAD
+import Byeong from './components/Byeong';
 import Eunhye from './components/Eunhye';
+import Gilhwan from './components/Gilhwan';
 import Home from './components/Home';
-
-=======
-
-import Footer from './components/Footer';
-
-import Nav from './components/Nav'
->>>>>>> abe90591308f516553fd03b519ab50a3cd700240
-
+import Sado from './components/Sado';
 
 
 
 function App() {
 
   return (
-<<<<<<< HEAD
     <div className="App ">
       <BrowserRouter>
         <Routes>
-          
           <Route path='/' element={<Home />} exact></Route>
           <Route path='/eunhye' element={<Eunhye />} ></Route>
+          <Route path='/gilhwan' element={<Gilhwan />} ></Route>
+          <Route path='/sado' element={<Sado />} ></Route>
+          <Route path='/byeong' element={<Byeong />} ></Route>
         </Routes>
       </BrowserRouter>
     </div >
-=======
-
-    <div className="App">
-      <header className="App-header">
-        <Footer />
-      </header>
-
-      <Nav />
->>>>>>> abe90591308f516553fd03b519ab50a3cd700240
 
   );
 }
