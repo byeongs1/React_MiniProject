@@ -1,7 +1,15 @@
 import { BrowserRouter, Route, Routes, Outlet } from 'react-router-dom';
 import './App.css';
+<<<<<<< HEAD
 import Eunhye from './components/Eunhye';
 import Home from './components/Home';
+
+=======
+
+import Footer from './components/Footer';
+
+import Nav from './components/Nav'
+>>>>>>> abe90591308f516553fd03b519ab50a3cd700240
 
 
 
@@ -9,6 +17,7 @@ import Home from './components/Home';
 function App() {
 
   return (
+<<<<<<< HEAD
     <div className="App ">
       <BrowserRouter>
         <Routes>
@@ -18,6 +27,15 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div >
+=======
+
+    <div className="App">
+      <header className="App-header">
+        <Footer />
+      </header>
+
+      <Nav />
+>>>>>>> abe90591308f516553fd03b519ab50a3cd700240
 
   );
 }
