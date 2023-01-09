@@ -6,7 +6,7 @@ const Eunhye = props => {
     return (
         <div>
             <Nav />
-            <img className='w-full' src="/images/KakaoTalk_20230106_171437308.jpg" alt="" />
+            <img className='w-full' src="/images/eunhye.jpg" alt="" />
             <Footer />
         </div>
     )

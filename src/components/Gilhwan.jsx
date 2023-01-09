@@ -6,7 +6,7 @@ const Gilhwan = props => {
     return (
         <div>
             <Nav />
-            <img className='w-full giilhwan' src='/images/1672992196051.jpg' />
+            <img className='w-full giilhwan' src='/images/gilhwan.jpg' />
             <Footer />
         </div>
     )

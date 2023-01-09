@@ -7,7 +7,7 @@ const Byeong = props => {
     return (
         <div>
             <Nav />
-            <img className='w-full' src='/images/IMG_0259.jpg' />
+            <img className='w-full' src='/images/byeong.jpg' />
             <Footer />
         </div>
     )

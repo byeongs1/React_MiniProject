@@ -7,7 +7,7 @@ const Sado = props => {
     return (
         <div>
             <Nav />
-            <img className='w-full' src='/images/IMG_0308.jpg' />
+            <img className='w-full' src='/images/sado.jpg' />
             <Footer /></div>
     )
 }
